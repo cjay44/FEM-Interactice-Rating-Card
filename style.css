@@ -94,6 +94,10 @@ h1 {
     padding-block-end: 0.625rem;
 }
 
+.rate h1 {
+    padding-block: 1rem;
+}
+
 p {
     font-size: var(--fs-body-sm);
     font-family: var(--ff-primary);
@@ -163,7 +167,6 @@ border-radius: 60px;
 }
 
 .star-circle {
-    margin-block-end: 1rem;
     display: inline-block;
     width: 40px;
     height: 40px;
