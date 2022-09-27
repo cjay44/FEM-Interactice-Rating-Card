@@ -179,6 +179,7 @@ border-radius: 60px;
 @media (min-width: 410px ) {
     .card {
         padding-inline: 2rem;
+        padding-block: 2rem;
     }
     .rating-btn {
         width: 51px;
@@ -189,5 +190,9 @@ border-radius: 60px;
     }
     p {
         font-size: var(--fs-body-large);
+    }
+
+    .rate h1 {
+        padding-block-start: 2rem;
     }
 }
